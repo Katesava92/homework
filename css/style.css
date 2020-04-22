@@ -1,0 +1,65 @@
+body {
+  background-image: url("../img/bg4.jpg");
+  background-repeat: repeat-y;
+  color: #ffffff;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.bold {
+  font-weight: 800;
+}
+.border {
+  padding: 10px;
+  margin: 5px;
+  border: #ffffff 1px dashed;
+  background-color: #696969;
+}
+.border > p {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+.index {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  padding: 5px;
+  border: #ffffff 1px dashed;
+  color: antiquewhite;
+}
+h2 {
+  text-align: center;
+}
+img {
+  width: 450px;
+}
+.chapter1, .chapter2, .chapter3, .chapter4, .chapter5 {
+  width: 80%;
+}
+.chapter1 {
+  color: #90EE90;
+}
+.chapter2 {
+  color: #40E0D0;
+}
+.chapter3 {
+  color: #FFE4E1;
+}
+.chapter4 {
+  color: #ADD8E6;
+}
+.chapter5 {
+  color: #F4A460;
+}
+a {
+  color: #90EE90;
+  text-decoration: none;
+}
